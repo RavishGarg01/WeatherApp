@@ -1,6 +1,8 @@
 body{
     padding: 0;
     margin: 0;
+    
+
 }
 
 .main{
@@ -8,6 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  
 }
 
 .box{
@@ -17,12 +20,13 @@ body{
     justify-content: center; */
     /* border:2px solid black; */
     height: 400px;
-    width:50%;
+    width:20%;
     border-radius: 20px;
-    background-image: url('w1.jpeg');
+   background-image: url('../Css/w1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 5px 5px gray;
+    padding: 10px
     
     
     
@@ -71,7 +75,7 @@ body{
    height: 100vh;
    width:100%;
    /* border-radius: 20px; */
-   background-image: url('w1.jpeg');
+ 
    background-repeat: no-repeat;
    background-size: cover;
    /* box-shadow: 5px 5px 5px 5px gray; */
@@ -107,5 +111,26 @@ color: lawngreen;
 
 
 
+
+
   
+}
+@media screen and (min-width: 480px) {
+  .box{
+   
+    /* display: flex; 
+   /* align-items: center; 
+   justify-content: center; */
+   /* border:2px solid black; */
+   /* height: 60vh; */
+   width:50%;
+   /* border-radius: 20px; */
+ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* box-shadow: 5px 5px 5px 5px gray; */
+   padding: 30px;
+   
+   
+}
 }
